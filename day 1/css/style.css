@@ -1,0 +1,39 @@
+/* 
+    CSS (Cascading Style Sheets) : HTML 문서의 스타일을 정의하는 스타일 시트언어
+
+    ★ 선택자
+     - 내가 스타일을 입힐 HTML 요소를 선택하는 문자
+     - 문법 : 선택자 { 선언문 ; }
+*/
+
+* {
+    color: blue;
+}
+
+h1 {
+    color: pink;
+}
+
+/* 
+    태그와 관계 없이 특정 요소만 디자인해주고싶다면 
+        - 클래스 선택자 : .클래스명
+        - 아이디 선택자 : #아이디명
+        - 클래스와 아이디는 HTML 문서에 해당하는 요소에 속성값으로 입력
+            ex) <p id="hello" class="green">
+*/
+
+/* 클래스 선택자 (사용 기호 : . ) 
+    => 한꺼번에 꾸며주고 싶은 부분에 작성
+*/
+
+.page {
+    background-color: green;
+}
+
+/* 아이디 선택자 (사용 기호 : # ) 
+    => 고유한 디자인 작성
+*/
+
+#loginId {
+    border: 2px solid blue;
+}

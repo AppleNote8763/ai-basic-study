@@ -1,0 +1,33 @@
+ <!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>영화 목록 출력</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="header">
+    <h1>인기 영화 목록</h1>
+    <p>TMDB API에서 영화 포스터, 제목, 개봉일을 가져옵니다.</p>
+  </header>
+
+  <main class="container">
+    <button id="loadMovieBtn" class="btn" type="button">영화 목록 보기</button>
+
+    <!-- 2교시에서는 API 응답 JSON을 이 영역에 그대로 출력해 구조를 확인합니다. -->
+    <pre id="movieConsole" class="code-box">2교시에서는 API 결과가 여기에 표시됩니다.</pre>
+
+    <!-- 3교시에서는 영화 데이터를 카드 형태로 이 영역에 출력합니다. -->
+    <section id="movieList" class="movie-list"></section>
+  </main>
+
+  <!-- 가지고 온 영화 데이터를 문자열로 표시한 파일 -->
+  <!-- <script src="js/02tmdb.js"></script> -->
+
+  <!-- 포스터로 화면에 출력 -->
+  <script src="js/03rendermovie.js"></script>
+
+</body>
+</html>
+ 

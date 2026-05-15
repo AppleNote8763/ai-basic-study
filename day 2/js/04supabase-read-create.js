@@ -3,7 +3,7 @@ import { createClient } from "https://esm.sh/@supabase/supabase-js@2";
 // URL 찾는 방법은 오른쪽 상단 검책상 'URL' -> COPY
 const SUPABASE_URL = "https://livslihohkyzcjrypsbi.supabase.co";
 // project settings -> API Keys -> Legacy anon, service role API Keys -> anon public API Keys -> COPY
-const SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImxpdnNsaWhvaGt5emNqcnlwc2JpIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Nzg3MzM5MjksImV4cCI6MjA5NDMwOTkyOX0.hocyaX7Pa1jQv87P2hokLhkW2zs2lpqFl9XeRaYl2Ck";
+const SUPABASE_ANON_KEY = ""; // Supabase anon key 입력
 
 const supabase = createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 

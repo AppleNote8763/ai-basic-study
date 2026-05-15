@@ -4,7 +4,7 @@ const recommendBtn = document.querySelector("#recommendBtn");
 const movieTitleInput = document.querySelector("#movieTitle");
 const aiResult = document.querySelector("#aiResult");
 
-const OPENAI_API_KEY = "";
+const OPENAI_API_KEY = ""; // 여기에 OpenAI API Key 입력
 const OPENAI_URL = "https://api.openai.com/v1/responses";
 
 recommendBtn.addEventListener("click", async function () {
